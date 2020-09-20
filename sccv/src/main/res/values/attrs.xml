@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShapeCardView">
+        <attr name="sccv_corners_radius" format="dimension" />
+        <attr name="sccv_background_color" format="color" />
+        <attr name="sccv_shape" format="enum">
+            <enum name="rectangle" value="0" />
+            <enum name="oval" value="1" />
+            <enum name="rhombus" value="2" />
+        </attr>
+        <attr name="sccv_shadow_radius" format="dimension" />
+        <attr name="sccv_shadow_color" format="color" />
+    </declare-styleable>
+</resources>

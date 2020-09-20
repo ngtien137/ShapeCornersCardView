@@ -1,0 +1,3 @@
+include ':sccv'
+include ':app'
+rootProject.name = "ShapeCornersCardViewDemo"
